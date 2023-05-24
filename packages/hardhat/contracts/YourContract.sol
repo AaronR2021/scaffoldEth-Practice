@@ -28,6 +28,6 @@ contract YourContract {
 
   function donate() public payable{
     count+=1;
-    contrabution[msg.sender]=msg.value;
+    contrabution[msg.sender]+=msg.value;
   }
 }
